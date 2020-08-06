@@ -1,5 +1,6 @@
 import 'package:optimizely/src/config/config_manager.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizely_config.dart';
+export 'package:optimizely/src/config/optimizely_config/optimizely_config.dart';
 
 class OptimizelyClient {
   ProjectConfigManager _configManager;

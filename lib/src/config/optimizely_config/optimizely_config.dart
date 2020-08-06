@@ -21,12 +21,12 @@ class OptimizelyConfig {
     List<Experiment> experimentsList = config.getExperimentList();
     String revision = config.getRevision();
 
-    Map<String, Variable> variableByIDMap = getVariableByIDMap(featuresList);
+    Map<String, Variable> variableByIDMap = _getVariableByIDMap(featuresList);
 
     Map<String, OptimizelyExperiment> experimentsMap =
-        getExperimentMap(featuresList, experimentsList, variableByIDMap);
+        _getExperimentMap(featuresList, experimentsList, variableByIDMap);
     return OptimizelyConfig(
-        revision, experimentsMap, getFeatureMap(featuresList, experimentsMap));
+        revision, experimentsMap, _getFeatureMap(featuresList, experimentsMap));
   }
 
   OptimizelyConfig(this.revision, this.experimentsMap, this.featuresMap);
@@ -37,7 +37,7 @@ class OptimizelyConfig {
   Map<String, dynamic> toJson() => _$OptimizelyConfigToJson(this);
 }
 
-Map<String, Variable> getVariableByIDMap(List<Feature> features) {
+Map<String, Variable> _getVariableByIDMap(List<Feature> features) {
   Map<String, Variable> variableIDMap = {};
   features.forEach((feature) {
     feature.variableMap.forEach((key, variable) {
@@ -47,7 +47,7 @@ Map<String, Variable> getVariableByIDMap(List<Feature> features) {
   return variableIDMap;
 }
 
-Map<String, Map<String, OptimizelyVariable>> getExperimentVariablesMap(
+Map<String, Map<String, OptimizelyVariable>> _getExperimentVariablesMap(
     List<Feature> features) {
   Map<String, Map<String, OptimizelyVariable>> experimentVariableMap = {};
   features.forEach((feature) {
@@ -63,11 +63,11 @@ Map<String, Map<String, OptimizelyVariable>> getExperimentVariablesMap(
   return experimentVariableMap;
 }
 
-Map<String, OptimizelyExperiment> getExperimentMap(List<Feature> features,
+Map<String, OptimizelyExperiment> _getExperimentMap(List<Feature> features,
     List<Experiment> experiments, Map<String, Variable> variableByIDMap) {
   Map<String, OptimizelyExperiment> optlyExperimentMap = {};
   Map<String, Map<String, OptimizelyVariable>> experimentVariablesMap =
-      getExperimentVariablesMap(features);
+      _getExperimentVariablesMap(features);
 
   experiments.forEach((experiment) {
     Map<String, OptimizelyVariation> optlyVariationsMap = {};
@@ -102,7 +102,7 @@ Map<String, OptimizelyExperiment> getExperimentMap(List<Feature> features,
   return optlyExperimentMap;
 }
 
-Map<String, OptimizelyFeature> getFeatureMap(
+Map<String, OptimizelyFeature> _getFeatureMap(
     List<Feature> features, Map<String, OptimizelyExperiment> experimentsMap) {
   Map<String, OptimizelyFeature> optlyFeatureMap = {};
   features.forEach((feature) {
