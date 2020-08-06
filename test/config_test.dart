@@ -1,8 +1,8 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:optimizely/src/client.dart';
+import 'package:optimizely/client.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizely_config.dart';
-import 'package:optimizely/src/factory.dart';
+import 'package:optimizely/factory.dart';
 
 void main() async {
   TestWidgetsFlutterBinding.ensureInitialized();

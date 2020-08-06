@@ -2,8 +2,6 @@ import 'package:json_annotation/json_annotation.dart';
 part 'event.g.dart';
 
 @JsonSerializable()
-
-// Event represents an event from the Optimizely datafile
 class Event {
   final String id;
   final String key;

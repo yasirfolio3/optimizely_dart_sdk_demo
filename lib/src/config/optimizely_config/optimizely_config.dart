@@ -37,27 +37,6 @@ class OptimizelyConfig {
   Map<String, dynamic> toJson() => _$OptimizelyConfigToJson(this);
 }
 
-// // NewOptimizelyConfig constructs OptimizelyConfig object
-// func NewOptimizelyConfig(projConfig ProjectConfig) *OptimizelyConfig {
-
-// 	if projConfig == nil {
-// 		return nil
-// 	}
-// 	featuresList := projConfig.GetFeatureList()
-// 	experimentsList := projConfig.GetExperimentList()
-// 	revision := projConfig.GetRevision()
-
-// 	optimizelyConfig := &OptimizelyConfig{}
-
-// 	variableByIDMap := getVariableByIDMap(featuresList)
-
-// 	optimizelyConfig.ExperimentsMap = getExperimentMap(featuresList, experimentsList, variableByIDMap)
-// 	optimizelyConfig.FeaturesMap = getFeatureMap(featuresList, optimizelyConfig.ExperimentsMap)
-// 	optimizelyConfig.Revision = revision
-
-// 	return optimizelyConfig
-// }
-
 Map<String, Variable> getVariableByIDMap(List<Feature> features) {
   Map<String, Variable> variableIDMap = {};
   features.forEach((feature) {

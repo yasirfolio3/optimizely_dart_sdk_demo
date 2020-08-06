@@ -1,4 +1,4 @@
-import 'package:optimizely/src/client.dart';
+import 'package:optimizely/client.dart';
 
 import 'package:optimizely/src/config/config_manager.dart';
 

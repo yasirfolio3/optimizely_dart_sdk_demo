@@ -2,8 +2,6 @@ import 'package:json_annotation/json_annotation.dart';
 part 'attribute.g.dart';
 
 @JsonSerializable()
-
-// Attribute represents an Attribute object from the Optimizely datafile
 class Attribute {
   final String id;
   final String key;

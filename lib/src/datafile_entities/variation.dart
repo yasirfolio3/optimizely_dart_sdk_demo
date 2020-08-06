@@ -3,8 +3,6 @@ import 'package:optimizely/src/datafile_entities/variationvariable.dart';
 part 'variation.g.dart';
 
 @JsonSerializable()
-
-// Variation represents an experiment variation from the Optimizely datafile
 class Variation {
   final String id;
   final String key;

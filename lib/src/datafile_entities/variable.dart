@@ -2,8 +2,6 @@ import 'package:json_annotation/json_annotation.dart';
 part 'variable.g.dart';
 
 @JsonSerializable()
-
-// Variable represents a Variable object from the Optimizely datafile
 class Variable {
   final String defaultValue;
   final String id;

@@ -2,8 +2,6 @@ import 'package:json_annotation/json_annotation.dart';
 part 'audience.g.dart';
 
 @JsonSerializable()
-
-// Audience represents an Audience object from the Optimizely datafile
 class Audience {
   final String id;
   final String name;

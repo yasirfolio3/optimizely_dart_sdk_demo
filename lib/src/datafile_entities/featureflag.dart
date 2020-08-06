@@ -3,8 +3,6 @@ import 'package:optimizely/src/datafile_entities/variable.dart';
 part 'featureflag.g.dart';
 
 @JsonSerializable()
-
-// FeatureFlag represents a FeatureFlag object from the Optimizely datafile
 class FeatureFlag {
   final String id;
   final String rolloutId;

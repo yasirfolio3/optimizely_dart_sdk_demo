@@ -4,8 +4,6 @@ import 'package:optimizely/src/datafile_entities/trafficallocation.dart';
 part 'group.g.dart';
 
 @JsonSerializable()
-
-// Group represents an Group object from the Optimizely datafile
 class Group {
   final String id;
   final String policy;

@@ -3,8 +3,6 @@ import 'package:optimizely/src/datafile_entities/experiment.dart';
 part 'rollout.g.dart';
 
 @JsonSerializable()
-
-// Rollout represents a rollout from the Optimizely datafile
 class Rollout {
   final String id;
   final List<Experiment> experiments;

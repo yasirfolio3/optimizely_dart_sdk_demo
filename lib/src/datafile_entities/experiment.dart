@@ -4,8 +4,6 @@ import 'package:optimizely/src/datafile_entities/variation.dart';
 part 'experiment.g.dart';
 
 @JsonSerializable()
-
-// Experiment represents an Experiment object from the Optimizely datafile
 class Experiment {
   final String id;
   final String key;
