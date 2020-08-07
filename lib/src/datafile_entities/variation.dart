@@ -1,4 +1,4 @@
-import 'package:optimizely/src/datafile_entities/variationvariable.dart';
+import 'package:optimizely/src/datafile_entities/variation_variable.dart';
 part 'variation.g.dart';
 
 class Variation {

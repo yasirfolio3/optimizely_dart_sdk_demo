@@ -10,7 +10,7 @@ import 'package:optimizely/src/datafile_entities/rollout.dart'
     as DatafileRollout show Rollout;
 import 'package:optimizely/src/datafile_entities/event.dart' as DatafileEvent
     show Event;
-import 'package:optimizely/src/datafile_entities/featureflag.dart'
+import 'package:optimizely/src/datafile_entities/feature_flag.dart'
     as DatafileFeatureFlag show FeatureFlag;
 import 'package:optimizely/src/datafile_entities/audience.dart'
     as DatafileAudience show Audience;

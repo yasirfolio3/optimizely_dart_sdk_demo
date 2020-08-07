@@ -1,5 +1,5 @@
-import 'package:optimizely/src/config/optimizely_config/optimizelyvariable.dart';
-part 'optimizelyvariation.g.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_variable.dart';
+part 'optimizely_variation.g.dart';
 
 class OptimizelyVariation {
   String id;

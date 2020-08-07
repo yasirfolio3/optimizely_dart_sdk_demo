@@ -1,4 +1,4 @@
-part of 'featureflag.dart';
+part of 'feature_flag.dart';
 
 FeatureFlag _$FeatureFlagFromJson(Map<String, dynamic> json) {
   return FeatureFlag(

@@ -1,4 +1,4 @@
-part 'variationvariable.g.dart';
+part 'variation_variable.g.dart';
 
 class VariationVariable {
   final String id;

@@ -1,4 +1,4 @@
-part of 'optimizelyexperiment.dart';
+part of 'optimizely_experiment.dart';
 
 OptimizelyExperiment _$OptimizelyExperimentFromJson(Map<String, dynamic> json) {
   return OptimizelyExperiment(

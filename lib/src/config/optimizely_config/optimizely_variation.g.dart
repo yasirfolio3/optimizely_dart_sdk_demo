@@ -1,4 +1,4 @@
-part of 'optimizelyvariation.dart';
+part of 'optimizely_variation.dart';
 
 OptimizelyVariation _$OptimizelyVariationFromJson(Map<String, dynamic> json) {
   return OptimizelyVariation(

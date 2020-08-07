@@ -1,5 +1,5 @@
-import 'package:optimizely/src/config/optimizely_config/optimizelyexperiment.dart';
-import 'package:optimizely/src/config/optimizely_config/optimizelyvariable.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_experiment.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_variable.dart';
 part 'optimizely_feature.g.dart';
 
 class OptimizelyFeature {

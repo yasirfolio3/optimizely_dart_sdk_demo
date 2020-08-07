@@ -1,4 +1,4 @@
-part of 'trafficallocation.dart';
+part of 'traffic_allocation.dart';
 
 TrafficAllocation _$TrafficAllocationFromJson(Map<String, dynamic> json) {
   return TrafficAllocation(

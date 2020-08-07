@@ -1,5 +1,5 @@
 import 'package:optimizely/src/datafile_entities/experiment.dart';
-import 'package:optimizely/src/datafile_entities/trafficallocation.dart';
+import 'package:optimizely/src/datafile_entities/traffic_allocation.dart';
 part 'group.g.dart';
 
 class Group {

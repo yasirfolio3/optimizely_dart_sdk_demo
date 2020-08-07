@@ -1,5 +1,5 @@
 import 'package:optimizely/src/datafile_entities/variable.dart';
-part 'featureflag.g.dart';
+part 'feature_flag.g.dart';
 
 class FeatureFlag {
   final String id;

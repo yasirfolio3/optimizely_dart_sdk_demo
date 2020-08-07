@@ -1,7 +1,7 @@
 import 'package:optimizely/src/config/optimizely_config/optimizely_feature.dart';
-import 'package:optimizely/src/config/optimizely_config/optimizelyexperiment.dart';
-import 'package:optimizely/src/config/optimizely_config/optimizelyvariable.dart';
-import 'package:optimizely/src/config/optimizely_config/optimizelyvariation.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_experiment.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_variable.dart';
+import 'package:optimizely/src/config/optimizely_config/optimizely_variation.dart';
 import 'package:optimizely/src/config/project_config.dart';
 import 'package:optimizely/src/entities/entities.dart';
 part 'optimizely_config.g.dart';

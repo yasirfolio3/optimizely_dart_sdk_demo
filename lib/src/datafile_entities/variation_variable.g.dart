@@ -1,4 +1,4 @@
-part of 'variationvariable.dart';
+part of 'variation_variable.dart';
 
 VariationVariable _$VariationVariableFromJson(Map<String, dynamic> json) {
   return VariationVariable(

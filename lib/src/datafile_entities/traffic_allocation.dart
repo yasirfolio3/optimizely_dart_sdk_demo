@@ -1,4 +1,4 @@
-part 'trafficallocation.g.dart';
+part 'traffic_allocation.g.dart';
 
 class TrafficAllocation {
   final String entityId;

@@ -1,4 +1,4 @@
-part 'optimizelyvariable.g.dart';
+part 'optimizely_variable.g.dart';
 
 class OptimizelyVariable {
   String id;

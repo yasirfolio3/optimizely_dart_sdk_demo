@@ -1,4 +1,4 @@
-import 'package:optimizely/src/datafile_entities/trafficallocation.dart';
+import 'package:optimizely/src/datafile_entities/traffic_allocation.dart';
 import 'package:optimizely/src/datafile_entities/variation.dart';
 part 'experiment.g.dart';
 
