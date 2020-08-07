@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'variationvariable.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 VariationVariable _$VariationVariableFromJson(Map<String, dynamic> json) {
   return VariationVariable(

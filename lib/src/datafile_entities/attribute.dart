@@ -1,7 +1,5 @@
-import 'package:json_annotation/json_annotation.dart';
 part 'attribute.g.dart';
 
-@JsonSerializable()
 class Attribute {
   final String id;
   final String key;

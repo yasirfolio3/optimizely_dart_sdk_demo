@@ -1,9 +1,7 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/trafficallocation.dart';
 import 'package:optimizely/src/datafile_entities/variation.dart';
 part 'experiment.g.dart';
 
-@JsonSerializable()
 class Experiment {
   final String id;
   final String key;

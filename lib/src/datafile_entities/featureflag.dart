@@ -1,8 +1,6 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/variable.dart';
 part 'featureflag.g.dart';
 
-@JsonSerializable()
 class FeatureFlag {
   final String id;
   final String rolloutId;

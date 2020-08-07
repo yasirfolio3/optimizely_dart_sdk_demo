@@ -1,7 +1,5 @@
-import 'package:json_annotation/json_annotation.dart';
 part 'event.g.dart';
 
-@JsonSerializable()
 class Event {
   final String id;
   final String key;

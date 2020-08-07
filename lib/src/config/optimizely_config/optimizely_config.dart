@@ -1,4 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizely_feature.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizelyexperiment.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizelyvariable.dart';
@@ -7,7 +6,6 @@ import 'package:optimizely/src/config/project_config.dart';
 import 'package:optimizely/src/entities/entities.dart';
 part 'optimizely_config.g.dart';
 
-@JsonSerializable()
 class OptimizelyConfig {
   String revision;
   Map<String, OptimizelyExperiment> experimentsMap;

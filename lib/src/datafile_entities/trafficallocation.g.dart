@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'trafficallocation.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 TrafficAllocation _$TrafficAllocationFromJson(Map<String, dynamic> json) {
   return TrafficAllocation(

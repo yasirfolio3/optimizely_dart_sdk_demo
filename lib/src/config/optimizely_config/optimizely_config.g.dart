@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'optimizely_config.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 OptimizelyConfig _$OptimizelyConfigFromJson(Map<String, dynamic> json) {
   return OptimizelyConfig(

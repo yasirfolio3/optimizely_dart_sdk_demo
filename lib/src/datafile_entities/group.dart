@@ -1,9 +1,7 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/experiment.dart';
 import 'package:optimizely/src/datafile_entities/trafficallocation.dart';
 part 'group.g.dart';
 
-@JsonSerializable()
 class Group {
   final String id;
   final String policy;

@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'featureflag.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 FeatureFlag _$FeatureFlagFromJson(Map<String, dynamic> json) {
   return FeatureFlag(

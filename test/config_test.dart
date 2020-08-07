@@ -10,8 +10,13 @@ void main() async {
     String data = await rootBundle.loadString('assets/100_entities.json');
     OptimizelyFactory factory = OptimizelyFactory(data);
     OptimizelyClient client = factory.client();
+
     expect(client != null, equals(true));
     OptimizelyConfig config = client.getOptimizelyConfig();
     expect(config != null, equals(true));
+
+    expect(config.revision, "17");
+    expect(config.experimentsMap.keys.length, 100);
+    expect(config.featuresMap.keys.length, 50);
   });
 }

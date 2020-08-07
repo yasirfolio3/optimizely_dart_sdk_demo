@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'optimizelyexperiment.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 OptimizelyExperiment _$OptimizelyExperimentFromJson(Map<String, dynamic> json) {
   return OptimizelyExperiment(

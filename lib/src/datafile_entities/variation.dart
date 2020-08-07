@@ -1,8 +1,6 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/variationvariable.dart';
 part 'variation.g.dart';
 
-@JsonSerializable()
 class Variation {
   final String id;
   final String key;

@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'optimizely_feature.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 OptimizelyFeature _$OptimizelyFeatureFromJson(Map<String, dynamic> json) {
   return OptimizelyFeature(

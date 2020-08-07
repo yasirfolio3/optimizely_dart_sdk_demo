@@ -1,8 +1,6 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/experiment.dart';
 part 'rollout.g.dart';
 
-@JsonSerializable()
 class Rollout {
   final String id;
   final List<Experiment> experiments;

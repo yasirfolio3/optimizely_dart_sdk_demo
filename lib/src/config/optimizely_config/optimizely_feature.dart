@@ -1,9 +1,7 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizelyexperiment.dart';
 import 'package:optimizely/src/config/optimizely_config/optimizelyvariable.dart';
 part 'optimizely_feature.g.dart';
 
-@JsonSerializable()
 class OptimizelyFeature {
   String id;
   String key;

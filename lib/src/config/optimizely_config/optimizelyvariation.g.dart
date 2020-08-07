@@ -1,10 +1,4 @@
-// GENERATED CODE - DO NOT MODIFY BY HAND
-
 part of 'optimizelyvariation.dart';
-
-// **************************************************************************
-// JsonSerializableGenerator
-// **************************************************************************
 
 OptimizelyVariation _$OptimizelyVariationFromJson(Map<String, dynamic> json) {
   return OptimizelyVariation(

@@ -1,4 +1,3 @@
-import 'package:json_annotation/json_annotation.dart';
 import 'package:optimizely/src/datafile_entities/attribute.dart';
 import 'package:optimizely/src/datafile_entities/audience.dart';
 import 'package:optimizely/src/datafile_entities/event.dart';
@@ -7,8 +6,6 @@ import 'package:optimizely/src/datafile_entities/featureflag.dart';
 import 'package:optimizely/src/datafile_entities/group.dart';
 import 'package:optimizely/src/datafile_entities/rollout.dart';
 part 'datafile.g.dart';
-
-@JsonSerializable()
 
 // Datafile represents the datafile we get from Optimizely
 class Datafile {

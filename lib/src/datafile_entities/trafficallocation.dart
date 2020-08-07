@@ -1,7 +1,5 @@
-import 'package:json_annotation/json_annotation.dart';
 part 'trafficallocation.g.dart';
 
-@JsonSerializable()
 class TrafficAllocation {
   final String entityId;
   final int endOfRange;

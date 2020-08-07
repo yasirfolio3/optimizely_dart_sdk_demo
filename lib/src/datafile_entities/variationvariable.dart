@@ -1,7 +1,5 @@
-import 'package:json_annotation/json_annotation.dart';
 part 'variationvariable.g.dart';
 
-@JsonSerializable()
 class VariationVariable {
   final String id;
   final String value;
